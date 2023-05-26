@@ -4,96 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../styles/estiloQS.css">
-
-    <title> Quien soy </title>
+    <link rel="shortcut icon" href="../assets/images/avatar.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+    <title> Quien soy - Diana's Creations </title>
 
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html"> <img src="../assets/images/logo 2.JPG" > </a>
+            <a href="../index.html"> <img src="../assets/images/logo2.JPG" > </a>
         </div>
 
-        <div class="menuHam"> 
+        <div id="menu">
+               
+            <ul class="nav">
+                <li id="categorias"><a href="#categorias">Categorias</a> 
+                    <ul>
+                        <li><a href="../html/logos.html" id="sub">Logos</a></li>
+                        <li><a href="../html/paletas.html"id="sub">Paletas de colores</a></li>
+                        <li><a href="../html/sitios.html" id="sub">Sitios web</a></li>
+                    </ul>
+                </li>
 
-            <input type="checkbox">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-
-            <nav>
-                <ul>
-
-                  <li> <a href="../html/logos.html">Logos</a> </li>
-                  <li> <a href="../html/paletas.html">Paletas de colores</a> </li>
-                  <li> <a href="../html/sitios.html">Sitios web</a> </li>
-
-                </ul>
-              </nav>
-
-        </div>
-
-        <div class="barra">
-                <ul>
-                    <li><a href="../html/quienSoy.html">Quien soy</a></li>
-                    <li><a href="../html/contacto.html">Contactame</a></li>
-                    <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
-                </ul>
-
+                <li><a href="../html/quienSoy.html">Quien soy</a></li>
+                <li><a href="../html/contacto.html">Contactame</a></li>
+                <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                    
+            </ul>
         </div>
     </header>
 
     <main>
 
-        <div class="info">
-            <p> Bienvenido/a a mi servicio freelance.
+        <div class="quien-soy">
 
-                <br>
+            <div class="titulo">
+                <h2 id="main-title"> Bienvenido/a a mi servicio freelance.</h2>
+            </div>
 
-                Ofrezco mis servicios como freelancer para ayudarte a alcanzar tus objetivos en diversas áreas. Con mi experiencia y habilidades en diferentes campos, puedo brindarte soluciones eficaces y personalizadas a tus necesidades específicas.
-                
-                Mi enfoque se basa en la calidad, la eficiencia y la satisfacción del cliente. Me aseguro de trabajar de cerca contigo para entender tus necesidades y objetivos para poder ofrecerte soluciones adaptadas y efectivas.
-                <br>
-                
-                Entre los servicios que ofrezco se encuentran:
-                <br>
-                
-                Redacción y edición de contenido para diferentes plataformas y objetivos.<br>
-                Creación y gestión de redes sociales.<br>
-                Diseño gráfico para publicidad, branding y materiales de marketing.<br>
-                Desarrollo web y programación de aplicaciones.<br>
-                Traducción de textos y documentos.<br>
-                Cuento con la flexibilidad de trabajar por proyecto o por horas, y siempre estaré disponible para responder tus dudas y escuchar tus sugerencias para hacer de tu proyecto una realidad.<br>
-                
-                Contáctame para discutir tus necesidades y juntos encontrar la mejor manera de lograr tus objetivos.</p>
+            
 
-        </div>
+            <section id="who">
+                <div class="contenido-who main-container">
+                    <div class="img-who">
+                        <img src="../assets/images/avatar.png" alt="avatar">
+                    </div>
+                    <h2 id="quien"> Quien Soy</h2>
+                        <div class="texto-who">
+                            <p>
+                                Ofrezco mis servicios como freelancer para ayudarte a alcanzar tus objetivos en diversas áreas. Con mi experiencia y habilidades en diferentes campos, puedo brindarte soluciones eficaces y personalizadas a tus necesidades específicas.
+                
+                            </p>
+                            <p>
+                                <br>
 
-        <div class="fPerfil">
-            <img src="../assets/images/perfil.jpg">
-        </div>
+                
+
+                            Mi enfoque se basa en la calidad, la eficiencia y la satisfacción del cliente. Me aseguro de trabajar de cerca contigo para entender tus necesidades y objetivos para poder ofrecerte soluciones adaptadas y efectivas.
+                            <br>
+                            
+                                Entre los servicios que ofrezco se encuentran:
+                        
+                        
+                            <p id="margenP">
+                                Redacción y edición de contenido para diferentes plataformas y objetivos.<br>
+                                Creación y gestión de redes sociales.<br>
+                                Diseño gráfico para publicidad, branding y materiales de marketing.<br>
+                                Desarrollo web y programación de aplicaciones.<br>
+                                Traducción de textos y documentos.<br>
+
+                            </p>
+                    
+            
+                        </div>
+                    
+                </div>
+            </section>
+        <!--<div id="who">
+            <p class="contenido-who" >
+                
+             
+                </p>
+            </p>
+            
+        </div>-->
+
+       
 
     </main>
 
     <footer>
 
-        <div class="barraInferior">
-            <ul>
+        <div id="footer">
+            <ul class="barraInferior">
                 <li><a href="../html/quienSoy.html">Quien soy</a></li>
                 <li><a href="../html/contacto.html">Contactame</a></li>
                 <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
             </ul>
 
-        </div>
+            <div id="bConFin">
+                <button class="bContacto"> <a href="../html/contacto.html"> Contactame</a></button>
+            </div>
 
-        <div class="redes">
-            <button name="bContacto"> <a href="../html/contacto.html"> Contactame</a></button>
-            <h1> Sigueme en:</h1>
-
-            <img src="../assets/images/redes/logoF.JPG" >
-            <img src="../assets/images/redes/logoI.JPG" >
-            <img src="../assets/images/redes/logoT.JPG" >
-            <img src="../assets/images/redes/logoYT.JPG" >
         </div>
 
         <div class="copyrigth">

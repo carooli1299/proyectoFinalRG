@@ -4,76 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../styles/estiloL.css">
-
-    <title> Logos</title>
+    <link rel="shortcut icon" href="../assets/images/avatar.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+    <title> Logos - Diana's Creations</title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html"> <img src="../assets/images/logo 2.JPG" > </a>
+            <a href="../index.html"> <img src="../assets/images/logo2.JPG" > </a>
         </div>
 
-        <div class="menuHam"> 
+        <div id="menu">
+               
+            <ul class="nav">
+                <li id="categorias"><a href="#categorias">Categorias</a> 
+                    <ul>
+                        <li><a href="../html/logos.html" id="sub">Logos</a></li>
+                        <li><a href="../html/paletas.html"id="sub">Paletas de colores</a></li>
+                        <li><a href="../html/sitios.html" id="sub">Sitios web</a></li>
+                    </ul>
+                </li>
 
-            <input type="checkbox">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-
-            <nav>
-                <ul>
-
-                  <li> <a href="../html/logos.html">Logos</a> </li>
-                  <li> <a href="../html/paletas.html">Paletas de colores</a> </li>
-                  <li> <a href="../html/sitios.html">Sitios web</a> </li>
-
-                </ul>
-              </nav>
-
-        </div>
-
-        <div class="barra">
-                <ul>
-                    <li><a href="../html/quienSoy.html">Quien soy</a></li>
-                    <li><a href="../html/contacto.html">Contactame</a></li>
-                    <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
-                </ul>
-
+                <li><a href="../html/quienSoy.html">Quien soy</a></li>
+                <li><a href="../html/contacto.html">Contactame</a></li>
+                <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                    
+            </ul>
         </div>
 
     </header>
 
     <main>
-        <h1> Ejemplos de Logos que he creado segun las necesidades del cliente</h1>
+        <div class="titulo">
+            <h2 id="main-title"> Logos que he creado segun las necesidades del cliente</h2>
+        </div>
+
         <section class="logos">
-            <img src="../assets/images/logos/logo1.JPG">
-            <img src="../assets/images/logos/logo2.JPG">
-            <img src="../assets/images/logos/logo3.JPG">
-            <img src="../assets/images/logos/logo4.JPG">
-            <img src="../assets/images/logos/logo5.JPG">
-            <img src="../assets/images/logos/logo6.JPG">
+            <img id="circular"src="../assets/images/logos/logo1.JPG" style = "margin: 20px">
+            <img id="circular"src="../assets/images/logos/logo2.JPG" style = "margin: 20px">
+            <img id="circular"src="../assets/images/logos/logo3.JPG" style = "margin: 20px">
+            <br>
+            <img id="cuadrado" src="../assets/images/logos/logo4.JPG" style = "margin: 20px">
+            <img id="cuadrado" src="../assets/images/logos/logo5.JPG" style = "margin: 20px">
+            <img id="circular"src="../assets/images/logos/logo6.JPG" style = "margin: 20px">
         </section>
 
     </main>
 
     <footer>
-        <div class="barraInferior">
-            <ul>
+        <div id="footer">
+            <ul class="barraInferior">
                 <li><a href="../html/quienSoy.html">Quien soy</a></li>
                 <li><a href="../html/contacto.html">Contactame</a></li>
                 <li><a href="../html/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
             </ul>
 
+            <div id="bConFin">
+                <button class="bContacto"> <a href="../html/contacto.html"> Contactame</a></button>
+            </div>
+
         </div>
 
-        <div class="redes">
-            <button name="bContacto"> <a href="../html/contacto.html"> Contactame</a></button>
-            <h1> Sigueme en:</h1>
-            <img src="../assets/images/redes/logoF.JPG" >
-            <img src="../assets/images/redes/logoI.JPG" >
-            <img src="../assets/images/redes/logoT.JPG" >
-            <img src="../assets/images/redes/logoYT.JPG" >
-        </div>
         <div class="copyrigth">
             &copy; 2023 Diana's Creations
         </div>
